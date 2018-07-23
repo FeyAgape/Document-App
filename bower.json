@@ -1,0 +1,14 @@
+{
+  "name": "document-app",
+  "description": "A AngularJS Document Application",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FeyAgape/Document-App",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-route": "1.5.x",
+    "bootstrap": "3.3.x"
+  }
+}
