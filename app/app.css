@@ -115,6 +115,11 @@ ul.documents {
 .col-md-10 {
     border-left: 1px solid #9C27B0;
 }
+@media screen and (max-width: 1440px) {
+.documents li {
+    width: 47%;
+}
+}
 
 @media screen and (max-width: 992px) {
 .col-md-10 {
@@ -125,8 +130,4 @@ ul.documents {
 }
 }
 
-@media screen and (max-width: 1440px) {
-.documents li {
-    width: 47%;
-}
-}
+
