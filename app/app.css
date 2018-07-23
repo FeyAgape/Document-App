@@ -3,7 +3,22 @@ body {
 }
 
 h1 {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #673AB7;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+p {
+    width: 80%;
+}
+
+document-detail.ng-scope.ng-isolate-scope a {
+    color: #311B92;
+    text-decoration: none;
+    font-size: 22px;
+}
+document-detail.ng-scope.ng-isolate-scope a:hover {
+    color: #9c27b0;
 }
 
 /* View: document list */
@@ -38,7 +53,7 @@ h1 {
 /* View: document detail */
 .document {
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid #673AB7;
   float: left;
   height: 400px;
   margin-bottom: 2em;
@@ -79,7 +94,8 @@ h1 {
 .details > li {
   display: inline-block;
   vertical-align: top;
-  width: 200px;
+  width: 40%;
+  padding-left: 2%;
 }
 
 .details > li > span {
@@ -115,6 +131,12 @@ ul.documents {
 .col-md-10 {
     border-left: 1px solid #9C27B0;
 }
+
+
+
+
+
+
 @media screen and (max-width: 1440px) {
 .documents li {
     width: 47%;
