@@ -38,7 +38,7 @@ This will also run Bower, which will download the Angular files needed.
 
 ### End-to-End Testing
 
-[Protractor][protractor] is used for end-to-end (e2e) testing.
+Protractor is used for end-to-end (e2e) testing.
 
 It requires a webserver that serves the application. See the
 _Running the Application during Development_ section, above.
